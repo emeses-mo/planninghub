@@ -1,0 +1,50 @@
+.ud_main{
+    padding: 1%;
+}
+.ud_logo{
+    flex: 0.9;
+}
+.ud_logo img{
+    width: 200px;
+}
+.ud_header{
+    display: flex;
+}
+.ud_logout{
+    flex: 0.1;
+    margin-top: 1%;
+}
+.ud_welcomeText{
+    font-size: 50px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.ud_logout button{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    border-radius: 20px;
+    background-color: #7ED6DF;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+}
+.ud_logout button:hover{
+    cursor: pointer;
+}
+.ud_indbox{
+    border: 2px solid #7ED6DF;
+    width: 40%;
+    border-radius: 12px;
+    margin-top: 2%;
+}
+.ud_submitted h1{
+     margin-left: 2%;
+     font-size: 25px;
+}
+.ud_indbox{
+    margin-left: 2%;
+    padding: 2%;
+}

@@ -1,0 +1,47 @@
+.adash_wrapper{
+    border: 3px solid #7ED6DF;
+    width: 40%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 12px;
+}
+.adash_box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#adash_erApprove{
+flex: 0.5;
+border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+}
+#adash_erReject{
+    flex: 0.5;
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.adash_erBtn{
+    display: flex;
+    margin-top: 3%;
+}
+.adash_erBtn button{
+    background-color: #7ED6DF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.adash_erBtn button:hover{
+    cursor: pointer;
+}
+#adash_erReject:hover{
+    background-color: red;
+}
+#adash_erApprove:hover{
+    background-color: green;
+}

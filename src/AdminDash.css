@@ -1,0 +1,39 @@
+.ad_header img{
+    width: 200px;
+  
+}
+.ad_header{
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 2%;
+
+    display: flex;
+    
+    
+}
+.adh_logo{
+    flex: 0.9;
+}
+.adh_logout{
+    flex: 0.1;
+}
+.ad_header button{
+    background-color: #7ED6DF;
+    border: none;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 18px;
+    margin-top: 6%;
+}
+.ad_header button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+.ad_intro{
+    margin-left: 4%;
+    font-size: 18px;
+}

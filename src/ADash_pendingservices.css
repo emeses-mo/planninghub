@@ -1,0 +1,55 @@
+.adsa_wrapper{
+    border: 3px solid #7ED6DF;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 12px;
+    padding: 1%;
+}
+.adsa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.adsa_cn h1{
+text-align: center;
+font-size: 22px;
+}
+.adsa_infobox{
+    display: flex;
+}
+.adsa_si{
+    flex: 0.9;
+}
+.adsa_sc{
+    flex: 0.1;
+}
+.adsa_ar{
+    margin-top: 2%;
+    display: flex;
+}
+.adsa_approve{
+    flex: 0.5;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.adsa_approve:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.adsa_reject{
+    flex: 0.5;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.adsa_reject:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.adsa_ar button{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    background-color: #7ED6DF;
+}

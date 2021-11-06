@@ -1,0 +1,51 @@
+.aep_box{
+    border-radius: 50px;
+background: #7ED6DF;
+
+    width: 21%;
+    height: 230px;
+    padding: 2%;
+    margin-right: 2%;
+}
+.aep_mainbox{
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.aep_box h3{
+    font-size: 13px;
+}
+.aep_box h2{
+    font-size: 14px;
+}
+.aep_buttons{
+    display: flex;
+    margin-top: 5%;
+    
+}
+.aep_buttons button{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 16px;
+    border: none;
+
+}
+.aep_buttons button:hover{
+    cursor: pointer;
+}
+.aep_approve{
+    flex:0.5;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.aep_reject{
+    flex:0.5;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.aep_main h1{
+    margin-left: 4%;
+    margin-top: 2%;
+}

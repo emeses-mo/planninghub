@@ -1,0 +1,162 @@
+.erp_logo img{
+    width: 200px;
+
+}
+.erp_logo{
+    flex: 0.9;
+}
+.erp_login{
+    margin-top: 1%;
+    flex: 0.1;
+       margin-right: 2%;
+}
+.erp_login button{
+    font-size: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    border-radius: 21px;
+    background-color: #7ED6DF;
+ font-weight: bold;
+}
+.erp_login button:hover{
+    cursor: pointer;
+}
+.erp_main{
+    margin: 2%;
+}
+.erp_services,.erpDnd h1,.erp_chooseet h1{
+    text-align: center;
+}
+.erp_header{
+    display: flex;
+}
+
+
+.erp_etypes{
+  
+    margin-top: 3%;
+}
+.erp_services select,.erp_etypes select{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid #7ED6DF;
+    outline: none;
+}
+.erp_etypes select:hover{
+    cursor: pointer;
+}
+.erpDnd{
+    margin-top: 3%;
+}
+.erpdndin{
+display: flex;
+width: 50%;
+margin: 0 auto;
+}
+.erp_date{
+    flex: 0.5;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.erp_time{
+    flex: 0.5;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.erpDnd input{
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 50%;
+border: #7ED6DF 1px solid;
+padding: 2%;
+outline: none;
+
+}
+.erpDnd input:hover{
+    cursor: pointer;
+}
+.erp_step1{
+    margin-top: 2%;
+    height: 80vh;
+   
+   
+}
+.erp_move h3{
+    width: 13%;
+    background-color: #7ED6DF;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #7ED6DF;
+    border-radius: 20px;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+.eventreg_submit{
+    text-align: center;
+    margin-top: 5%;
+   
+}
+.eventreg_submit button{
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: none;
+    background-color: #7ED6DF;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.eventreg_submit button:hover{
+    cursor: pointer;
+}
+.erp_move a{
+    text-decoration: none;color: black;
+}
+.erp_move{
+    text-align: center;
+    margin-top: 4%;
+}
+.erp_services{
+   
+}
+.erp_services select{
+    margin-top: 2%;
+}
+.erp_venue h1{
+    margin-top: 2%;
+}
+.erp_step2{
+    
+ 
+}
+.erp_step3{
+    margin-top: 10%;
+    height: 50vh;
+}
+.erp_step3 {
+    text-align: center;
+
+}
+.erp_userdetails p {
+   font-size: 20px;
+   font-weight: bold;
+  
+}
+.erp_userdetails input{
+    width: 50%;
+    padding: 1%;
+    border: #7ED6DF 1px solid;
+    border-radius: 20px;
+    margin-top: 2%;
+    outline: none;
+    font-size: 18px;
+}

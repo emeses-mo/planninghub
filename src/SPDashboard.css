@@ -1,0 +1,84 @@
+.spd_logo{
+    
+    flex: 0.9;
+}
+.spd_logo img{
+    width: 200px;
+}
+.spd_header{
+    display: flex;
+}
+.spd_logout{
+    flex: 0.1;
+}
+.spd_logout button{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 17px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 7%;
+    border: navy;
+    border-radius: 15px;
+    background-color:#7ED6DF ;
+    font-weight: bold;
+    
+}
+.spd_logout button:hover{
+    cursor: pointer;
+}
+.spd_main{
+    padding: 1%;
+}
+.spd_nav{
+    
+    width: 23%;
+    flex: 0.25;
+}
+.spd_navItems{
+   margin-left: 5%;
+
+}
+.spd_navItems h1{
+    font-family: 'Arial Nova',sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+   
+}
+.dec_off {
+   text-decoration: none;
+}
+.spd_navItems img{
+  width: 30px;
+ 
+    
+}
+.spd_main h2{
+    margin-left: 1.5%;
+    font-size: 30px;
+}
+.spd_nvi {
+    display: flex;
+    margin-top: 15%;
+    background-color: #7ED6DF;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-left: 2%;
+   border-radius: 12px;
+
+}
+.spd_nvi h1{
+    text-align: center;
+}
+.spd_nvi img{
+    margin-right: 2%;
+}
+.spd_content{
+    display: flex;
+}
+.spd_disp{
+    flex: 0.7;
+    margin-top: 2%;
+    margin-left: 3%;
+}

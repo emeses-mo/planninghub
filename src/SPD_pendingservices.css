@@ -1,0 +1,28 @@
+.spd_wrapper{
+    border: 3px solid #7ED6DF;
+    width: 25%;
+    padding: 1%;
+    border-radius: 12px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.spd_removeBtn{
+    width: 100%;
+    border: none;
+    background-color: #7ED6DF;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+}
+.spd_removeBtn:hover{
+    cursor: pointer;
+ background-color: red;
+}
+.SDP_PendingDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

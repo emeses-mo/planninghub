@@ -1,0 +1,34 @@
+.adas_wrapper{
+    border: 3px solid #7ED6DF;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 12px;
+    padding: 1%;
+
+}
+.adas_cn{
+    text-align: center;
+    font-size: 12px;
+}
+.adas_infobox{
+    display: flex;
+    margin-top: 2%;
+}
+.adas_si{
+    flex: 0.9;
+}
+.adas_sc{
+    flex: 0.1;
+}
+.adas_si h4{
+    color: grey;
+    font-size: 16px;
+}
+.adas_si h3{
+    font-size: 16px;
+}
+.adas_box{
+    display: flex;
+    flex-wrap: wrap;
+}

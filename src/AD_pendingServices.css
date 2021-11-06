@@ -1,0 +1,79 @@
+.adps_container{
+    background: rgba( 255, 255, 255, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 15%;
+margin: 2%;
+padding: 1%;
+height: 170px;
+}
+.adps_main{
+    margin-left: 2%;
+    margin-top: 1% ;
+}
+.adps_servicebox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.adps_cn{
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 1px solid #7ED6DF;
+}
+.adps_infobox{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.adps_si h3{
+    font-size: 16px;
+}
+.adps_si h4{
+    color: gray;
+}
+.adps_si{
+    margin-top: 1%;
+}
+
+.adps_ar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.adps_title{
+    margin-left: 2.5%;
+}
+.adps_ar button{
+    background-color: #7ED6DF;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.adps_ar button:hover{
+    cursor: pointer;
+    
+}
+.adps_approve{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    flex: 0.5;
+}
+.adps_reject{
+    flex:0.5;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.adps_approve:hover{
+    background-color: #29f1c3;
+    color: white;
+}
+.adps_reject:hover{
+    background-color: red;
+    color: white;
+}

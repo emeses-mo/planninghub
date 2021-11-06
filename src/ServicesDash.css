@@ -1,0 +1,174 @@
+.servicesDash_header img{
+    width: 200px;
+}
+.servicesDash_header {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.servicesDash_logo{
+    flex: 0.9;
+}
+.servicesDash_logout{
+
+    line-height: 4;
+    flex: 0.1;
+    
+}
+.servicesDash_user{
+   font-size: 25px;
+   margin-left: 1.5%;
+}
+.servicesDash_header button{
+ 
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 45px;
+    font-family: 'Arial Nova',sans-serif;
+    font-size: 18px;
+    background-color: #7ED6DF;
+}
+.servicesDash_header button:hover{
+    cursor: pointer;
+}
+.servicesDash{
+    padding: 2%;
+}
+.servicesDash_display{
+    display: flex;
+}
+.servicesDash_addservice{
+    flex: 0.8;
+   
+    margin-left: 1.5%;
+    font-family: 'Arial Nova',sans-serif;
+}
+.servicesDash_inputs p{
+    
+    font-size: 20px;
+}
+.servicesDash_addservice h3{
+    font-size: 22px;
+    margin-top: 3%;
+}
+.servicesDash_inputs{
+    margin-top:2% ;
+    display: flex;
+    flex-direction: column;
+}
+.servicesDash_inputs input{
+    width: 30%;
+    border: 1px solid #7ED6DF ;
+    outline: none;
+    padding: 5px;
+    border-radius: 12px;
+    margin-top: 1%;
+
+}
+.servicesDash_inputs select{
+    width: 30%;
+    border: #7ED6DF 1px solid;
+    outline: none;
+    padding: 5px;
+    border-radius: 12px;
+    margin-top: 1%;
+    
+ 
+}
+
+.servicesDash_addBtn{
+   
+    width: 30%;
+    margin-top: 2%;
+    
+}
+.servicesDash_addBtn button:hover{
+    cursor: pointer;
+}
+.servicesDash_addBtn button{
+    margin:0  auto;
+    display: block;
+    border: none;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 45px;
+    font-family: 'Arial Nova',sans-serif;
+    font-size: 18px;
+    background-color: #7ED6DF;
+}
+.servicesDash_show{
+    flex: 0.2;
+}
+.servicesDash_outer{
+    height: 350px;
+    
+    border-left: #7ED6DF 1px solid;
+    margin-top: 20%;
+    padding-left: 5%;
+}
+.servicesDash_Scrollable::-webkit-scrollbar{
+  width: 20px;
+}
+.servicesDash_Scrollable{
+    height: 100%;
+    font-family: 'Arial Nova',sans-serif;
+    
+   overflow-y: auto;
+}
+.servicesDash_outer p{
+    font-family: 'Arial Nova',sans-serif;
+    font-size: 18px;
+}
+.servicesInfo {
+    font-family: 'Arial Nova',sans-serif;
+
+
+}
+.servicesInfo h2{
+    font-size: 14px;
+}
+.servicesDash_outer button{
+    border: none;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 45px;
+    font-family: 'Arial Nova',sans-serif;
+    font-size: 18px;
+    background-color: #7ED6DF;
+}
+.servicesDash_outer button{
+    cursor: pointer;
+}
+.servicesDash_sbox{
+    border: #7ED6DF 3px dotted;
+    border-radius: 12px;
+    margin-top: 4%;
+   padding: 4%;
+}
+.servicesInfo{
+    flex: 0.7;
+    
+}
+.serviceCost{
+  flex: 0.2;
+}
+.serviceDisplayBox{
+    display: flex;
+   
+}
+.removeServicebtn{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.servicesDash_outer h4{
+    font-size: 19px;
+    margin-left: 2%;
+}

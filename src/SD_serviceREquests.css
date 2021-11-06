@@ -1,0 +1,15 @@
+.sr_box{
+    border: 3px dotted #7ED6DF;
+    width: 30%;
+    padding: 1%;
+    border-radius: 12px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.sr_main h2{
+    margin-left: 2%;
+}
+.sr_mainBox{
+    width: 90%;
+   overflow-x: auto;
+}

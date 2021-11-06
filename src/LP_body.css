@@ -1,0 +1,45 @@
+.lpb{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.lpb_sub1{
+    flex: 0.5;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+}
+.lpb_sub1 h2{
+ font-size: 40px;
+ font-family: 'Arial Nova',sans-serif;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 10%;
+
+}
+.lpb_sub1 button{
+    border: none;
+    font-size: 25px;
+    width: 30%;
+    height: 45px;
+    background-color: #7ED6DF;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'Arial Nova',sans-serif;
+    margin-top: 5%;
+
+    
+}
+.lpb_sub2{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lpb_sub2 img{
+    
+    width: 80%;
+}
