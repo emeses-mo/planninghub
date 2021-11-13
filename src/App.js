@@ -17,6 +17,8 @@ import UserLogin from './UserLogin';
 import DashTest from './DashTest';
 import SPDashboard from './SPDashboard';
 import ADash_main from './ADash_main';
+import EventsMain from './EventsMain';
+import ServicesIntro from './ServicesIntro';
 
 function App() {
   const [{},dispatch] = useStateValue();
@@ -45,6 +47,14 @@ function App() {
   <Router>
     <div className="app">
         <Switch>
+        <Route path="/services-main">
+         <ServicesIntro />
+        
+        </Route>
+        <Route path="/events-main">
+         <EventsMain />
+        
+        </Route>
         <Route path="/admin-dashboard">
          <ADash_main />
         
