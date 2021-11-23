@@ -41,9 +41,16 @@ function AdminEventsPending() {
     return (
         <div className="">
              <h1>Events Pending Approval</h1>
-           <div class="dropdown-menu" aria-labelledby="filter">
-    <a class="dropdown-item" href="#">date</a>
-    <a class="dropdown-item" href="#">name</a>
+          <div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="actions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Filter
+  </a>
+ 
+  <div class="dropdown-menu" aria-labelledby="actions">
+    <a class="dropdown-item" href="#">Date</a>
+    <a class="dropdown-item" href="#">Name</a>
+  </div>
+</div>
       </div>
             <div className="adash_box">
                 {
