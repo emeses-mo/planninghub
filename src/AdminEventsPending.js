@@ -41,6 +41,10 @@ function AdminEventsPending() {
     return (
         <div className="">
              <h1>Events Pending Approval</h1>
+           <div class="dropdown-menu" aria-labelledby="filter">
+    <a class="dropdown-item" href="#">date</a>
+    <a class="dropdown-item" href="#">name</a>
+      </div>
             <div className="adash_box">
                 {
                         services.map((service)=>(
